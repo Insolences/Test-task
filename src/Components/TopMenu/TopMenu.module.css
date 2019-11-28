@@ -1,0 +1,20 @@
+.topMenu{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+    background-color: #ffffff;
+    animation: fade-in 2s linear;
+}
+
+.container{
+    width: 100%;
+    animation: shadow 4s linear;
+    box-shadow: 0 0 59px 0 rgba(0,0,0,0.33);
+}
+
+@keyframes fade-in {0% { opacity: 0; } 60%{opacity: 0.1;}   100% { opacity: 1; }   }
+@keyframes shadow {0% { opacity: 0; } 60%{opacity: 0;}   100% { opacity: 1; }   }
+
+

@@ -13,19 +13,16 @@ export default class NavigationMenu extends React.Component {
         <div className={s.navigation}>
           <ul>
             <li className={s.navigation_item}>
-              <Link to="/orders">Приход</Link>
+              <Link to="/">Обзор</Link>
             </li>
             <li className={s.navigation_item}>
-              <a href="#">Группы</a>
+              <Link to="/orders">Realtime и PvP</Link>
             </li>
             <li className={s.navigation_item}>
-              <Link to="/products">Продукты</Link>
+              <Link to="/products">Backend и данные</Link>
             </li>
             <li className={s.navigation_item}>
-              <a href="#">Пользователи</a>
-            </li>
-            <li className={s.navigation_item}>
-              <a href="#">Настройки</a>
+              <a href="#milestones">План запуска</a>
             </li>
           </ul>
         </div>
